@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+ .answer_background {
+  background-color: lightgoldenrodyellow;
+  max-width: fit-content;
+ }
+
+ .left_bord{
+   border-left: solid 4px lightgray;
+ }
+form.ask-form {
+  display: flex;
+}
+button.btn.btn-primary.custom_btn {
+  border-radius: 0 10px 10px 0;
+}
+input[type="text"] {
+  padding: 5px;
+  border-radius: 10px 0 0 10px;
+  border: solid 1px;
+  border-right: none;
+}

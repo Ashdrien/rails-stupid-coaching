@@ -1,0 +1,13 @@
+<h1><strong>Stupid coaching</strong></h1>
+<br>
+<div class="left_bord ms-4">
+  <%= params["ask"] %>
+  <p>- you</p>
+</div>
+<br>
+<div class = "answer_background left_bord ms-4">
+  <%= @answer %>
+  <p>- the coach</p>
+</div>
+<br>
+<%= link_to "do you want a ask him something else?", ask_path, class:"ms-4" %>
